@@ -1,0 +1,197 @@
+* {
+background: rgb(183, 183, 183);
+font-family:'Plus Jakarta Sans'
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.daria {
+    position: relative;
+    font-size: 20px;
+    font-style: bold;
+    
+}
+#nav {
+    text-align: center;
+
+}
+.nav-links {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    font: size 16px;
+    font-weight:normal ;
+    justify-content: space-between;
+}
+.link {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.button {
+    font-size: 16px;
+    font-style: normal;
+    border: solid 2px black;
+    border-radius: 12px;
+    padding-left:28px ;
+    padding-right: 28px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+#forest {
+    width: 1040px;
+    height: 360px;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: medium;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+#about-me-p {
+    font-size: 20px;
+    font-weight: semi-bold;
+    padding-bottom: 40px;
+}
+.my-works {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    
+}
+#myworks {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width: 100%;
+        max-width: 1020px;
+}
+
+ .card {
+    width: 325px;
+    background-color: white;
+    border-radius: 24px;
+ }
+.cardpicture {
+    width: 325px;
+    height: 280px;
+    border-radius: 24px;
+    
+}
+.white-background{
+    background-color: white;
+    padding-left: 24px;
+}
+
+#work-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.steps {
+    margin-left: 120px;
+    font-style: italic;
+    padding-top: 20px;
+    border-bottom: solid 2px;
+    max-width: 1020px;
+}
+
+.circle {
+    font-size: 22px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid;
+    text-align: center;
+    float: right;
+}
+
+.contactform{
+    background-color: black;
+    color:white;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    display: grid;
+    justify-content: center;
+}
+
+#getintouch {
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+#filltheform{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.form{
+    background-color:black;
+    padding-top: 20px;
+}
+
+#name 
+#e-mail{
+    display: inline;
+    width: 242px;
+    height: 45px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0px 20px 40px 0px;
+  
+}
+
+#message {
+    width: 504px;
+    height: 94px;
+    background-color: (183,183,183);
+    margin-bottom: 40px;
+    padding: 10px 0px 0px 10px;
+}
+
+#send {
+    padding: 14px 28px 20px 28px;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 199px;
+    height: 52px;
+    display: grid;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
